@@ -58,7 +58,7 @@ a {
 }
 
 .burger {
-    background-image: url('/Kap_tacos/images/burger.jpg');
+    background-image: url('/images/burger.jpg');
     background-size:100%;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -66,7 +66,7 @@ a {
     
 }
 .tacos {
-    background-image: url('/Kap_tacos/images/Tacos.jpg');
+    background-image: url('/images/Tacos.jpg');
     background-size:100%;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -75,21 +75,21 @@ a {
 }
 
 .kap {
-    background-image: url('/Kap_tacos/images/frite.webp');
+    background-image: url('/images/frite.webp');
     background-size:100%;
     background-position: 50%;
     background-repeat: no-repeat;
     /* Autres styles */
 }
 .sandwiche {
-    background-image: url('/Kap_tacos/images/panini.jpg');
+    background-image: url('/images/panini.jpg');
     background-size:100%;
     background-position: 50%;
     background-repeat: no-repeat;
     /* Autres styles */
 }
 .plaisir {
-    background-image: url('/Kap_tacos/images/hotdog.webp');
+    background-image: url('/images/hotdog.webp');
     background-size:100%;
     background-position: 40%;
     background-repeat: no-repeat;
