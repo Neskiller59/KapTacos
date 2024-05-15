@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Oswald:wght@200..700&display=swap');
+*, ::before, ::after
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+    height: 100vh;
+    margin: 0; /* Supprimer les marges par défaut */
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo img{
+    height: 20vh;
+    width: 20vh;
+  
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* Prend la taille de l'écran en hauteur */
+    justify-content: center;
+    width: 50%;
+}
+
+.menu button {
+    border: none;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%;
+    height: 200px;
+    font-family: "EB Garamond", serif;
+    font-weight: 300;
+}
+a {
+    text-decoration: none;
+    color: #8f8d8d;
+}
+
+.menu button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.burger {
+    background-image: url('/Kap_tacos/images/burger.jpg');
+    background-size:100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    /* Autres styles */
+    
+}
+.tacos {
+    background-image: url('/Kap_tacos/images/Tacos.jpg');
+    background-size:100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    /* Autres styles */
+    
+}
+
+.kap {
+    background-image: url('/Kap_tacos/images/frite.webp');
+    background-size:100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    /* Autres styles */
+}
+.sandwiche {
+    background-image: url('/Kap_tacos/images/panini.jpg');
+    background-size:100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    /* Autres styles */
+}
+.plaisir {
+    background-image: url('/Kap_tacos/images/hotdog.webp');
+    background-size:100%;
+    background-position: 40%;
+    background-repeat: no-repeat;
+    /* Autres styles */
+}
+#menu {
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    list-style-type: none;
+}
+
+#menu li {
+    margin-bottom: 5px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#toggle-menu {
+    cursor: pointer;
+    position: absolute;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* Réorganiser les éléments pour un affichage en colonne */
+    section {
+        flex-direction: column;
+        margin-bottom: 1px;
+    }
+    .logo, .menu {
+        width: 100%; /* Prendre toute la largeur de l'écran */
+    }
+    
+    .menu button {
+        height: 300px; /* Réduire la hauteur des boutons */
+        font-size: 20px; /* Réduire la taille de la police */
+        
+    }
+
+    .logo img {
+        height: 10vh; /* Réduire la taille du logo */
+        width: auto; /* Ajuster automatiquement la largeur */
+    }
+}

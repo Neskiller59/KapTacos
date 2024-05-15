@@ -1,0 +1,300 @@
+/* Réinitialisation des styles de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(46, 78%, 46%);
+}
+
+/* Styles de l'en-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Styles de la barre de navigation */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+}
+
+/* Styles des liens dans l'en-tête */
+header a:hover {
+    color: hsl(46, 78%, 46%);
+}
+
+header a {
+    color: #fff;
+    text-decoration: none; 
+}
+
+/* Styles des images dans l'en-tête */
+header img {
+    height: 80px;
+    width: 80px;
+}
+
+/* Styles du titre principal */
+.compose {
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 50px;
+}
+
+/* Styles du menu */
+.menu {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Styles des éléments de type tacos */
+.tacos {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+/* Styles des images des tacos */
+.tacos img {
+    height: 100px;
+    width: 100px; 
+}
+
+/* Styles des titres des tacos */
+.tacos h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Styles des paragraphes des tacos */
+.tacos p {
+    color: #666;
+}
+
+/* Styles des ingrédients */
+.ingredient {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Styles des articles d'ingrédients */
+.ingredient article {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+/* Styles des images des ingrédients */
+.ingredient img {
+    height: 20px;
+    width: 20px;
+}
+
+/* Styles de la section gratinage */
+.gratinnage {
+    background-color: grey;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Styles des images de la section gratinage */
+.gratinnage img {
+    height: 100px;
+    width: 100px;
+}
+
+/* Styles des paragraphes de la section gratinage */
+.gratinnage p {
+    font-size: large;
+    font-style: italic;
+    color: #333;
+}
+
+/* Styles de la section viande */
+.viande {
+    position: relative;
+}
+
+
+.image-hover {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    
+}
+
+.kap {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+   
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Styles pour la section du menu */
+.menub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Styles pour chaque élément du menu */
+.burger {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+/* Styles pour l'image du burger */
+.burger img {
+    width: 100%;
+    height:40%;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Styles pour le texte du burger */
+.burger p {
+    padding: 10px;
+}
+
+/* Styles pour le prix du burger */
+.burger p:nth-last-of-type(1),
+.burger p:last-of-type {
+    font-weight: bold;
+    color: #f45938;
+}
+
+/* Styles pour le titre du burger */
+.burger h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f45938;
+    color: #fff;
+    margin: 0;
+}
+
+/* Hover sur le burger */
+.burger:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.pf img{
+    height: 100px;
+    width: 100px;
+}
+h2 .pf {
+    font-size: large;
+}
+.pf{
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menuS {
+    background: linear-gradient(180deg, rgba(77,65,65,1) 11%, rgba(83,83,78,1) 46%, rgba(3,0,0,1) 78%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px ;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+.menuS img {
+    height: 300px;
+    width: 300px;
+}
+
+.panini p, .naan p, .bugget p, .salade p, .texMex p, .hotDog p {
+    color: #ccc;
+}
+.panini h2, .naan h2, .bugget h2, .salade h2, .texMex h2, .hotDog h2 {
+   color:  hsl(46, 78%, 46%);
+}
+
+.panini p:last-child, .naan p:last-child, .texMex p:last-child, .bugget p:last-child, .hotDog p:last-child {
+    font-weight: bold;
+    color: #f45938;
+}
+.menup {
+    background-color: pink;
+    
+}
+
+.menup img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 20px 20px ;
+    
+}
+.boisson{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+.menup p {
+    font-size: 20px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 2px;
+}
+ .b {
+    text-align: center;
+    padding: 0 200px;
+    font-size: 17px;
+    padding: 20px 20px ;
+}
+
+
+footer {
+    
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media only screen and (max-width: 900px) {
+    nav a {
+        display: flex;
+        justify-content: space-around;
+    }
+}
